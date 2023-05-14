@@ -1,4 +1,8 @@
 const sum = require("./sum");
+const capitalize = require("./capitalize");
+const reverseString = require("./reverseString");
+const calculator = require("./calculator");
+const caesarCipher = require("./caesarCipher");
 
 test("sum function adds 1 + 2 to equal 3", () => {
   expect(sum(1, 2)).toBe(3);
